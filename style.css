@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.hero,
+.footer {
+    background-color: #1F2937;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    flex-shrink: 0;
+    padding: 10px 150px 0;
+    gap: 60px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-container {
+    display: flex;
+    gap: 20px;
+}
+
+.main-text {
+    font: 48px bolder;
+    color: #F9FAF8;
+}
+
+ul,
+.secondary-text {
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+.image-placeholder {
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    padding: 0 10px;
+}
+
+button,
+.sign-up {
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: white;
+}
+
+button {
+    border: transparent 2px solid;
+    padding: 5px 15px;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    flex: 1 0 auto;
+    gap: 30px;
+}
+
+.information-header {
+    font: 36px bolder;
+    color: #1F2937;
+}
+
+.text-images {
+    font-family: 'Roboto';
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.text-images div {
+    width: 140px;
+    text-align: center;
+}
+
+.text-images div div {
+    border: #3882F6 4px solid;
+    height: 130px;
+    width: 130px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.quote {
+    background-color: hsl(220, 13%, 91%);
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    flex-shrink: 0;
+}
+
+.quote p {
+    margin: 0;
+    width: 750px;
+}
+
+span {
+    display: block;
+    text-align: right;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 225px;
+    flex-shrink: 0;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    width: 800px;
+}
+
+.sign-up-header {
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.sign-up button {
+    border: white 2px solid;
+    padding: 5px 15px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    flex-shrink: 0;
+    color: #E0D6C8;
+}
